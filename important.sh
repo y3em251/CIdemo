@@ -9,3 +9,4 @@ echo "Package installed Successfully"
 touch file1 file2 
 cd /tmp
 touch 1 2 
+history > /tmp/hist.txt
