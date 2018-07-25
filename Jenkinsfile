@@ -19,6 +19,13 @@ echo "this is my first pipline code" >> file1
 '''
           }
         }
+        stage('Testing stage ') {
+          steps {
+            sh '''echo "successfully created a file" 
+
+'''
+          }
+        }
       }
     }
   }
